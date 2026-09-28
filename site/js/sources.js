@@ -11,6 +11,13 @@ const INDICATOR_GROUPS = [
     keys: ["chd", "copd", "af", "stroke", "ckd", "hf", "pad", "osteo"],
   },
   {
+  id: "multicond",
+  label: "Multi-condition patterns",
+  coverage: "England only",
+  blurb: "Number of selected QOF conditions for which each LSOA is in the national highest-prevalence quintile. This is an area-level measure of co-elevated disease prevalence, not individual-level multimorbidity.",
+  keys: ["multicond"],
+  },
+  {
     id: "prescribing",
     label: "Prescribing indicators",
     coverage: "England only",
