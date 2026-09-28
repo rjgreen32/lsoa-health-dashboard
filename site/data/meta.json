@@ -60,6 +60,7 @@
     "osteo_z",
     "osteo_adj",
     "osteo_adj_pctile",
+    "multicond",
     "statins",
     "statins_pctile",
     "statins_yoy",
@@ -2114,6 +2115,27 @@
       ],
       "min_adj_pctile": 0.0,
       "max_adj_pctile": 100.0
+    },
+    "multicond": {
+  "label": "Multiple high-prevalence conditions",
+  "group": "Multi-condition patterns (England)",
+  "unit": "conditions in national top 20%",
+  "source": "Derived from NHS QOF via PLDR",
+  "coverage": "England (+ partial border areas)",
+  "year": "2024",
+  "n_lsoas": 32969,
+  "min": 0,
+  "max": 8,
+  "breaks": [
+    0,
+    1,
+    3,
+    5
+  ],
+  "modes": [
+    "raw"
+  ],
+  "has_trend": false
     },
     "copd": {
       "label": "COPD",
