@@ -39,6 +39,13 @@ const INDICATOR_GROUPS = [
     keys: ["pct65"],
   },
   {
+  id: "elsa_aipc",
+  label: "ELSA × AiPC validation",
+  coverage: "England only",
+  blurb: "Weighted representation of ELSA Wave 6 respondents aged 50+ relative to the AiPC population benchmark. A value of 1 indicates proportional representation. Values are estimated at AiPC supergroup level and assigned to constituent LSOAs.",
+  keys: ["elsa_rep"],
+},
+  {
     id: "census",
     label: "Census: self-reported health",
     coverage: "England and Wales",
